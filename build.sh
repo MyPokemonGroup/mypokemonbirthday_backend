@@ -5,4 +5,4 @@ if [ ! -d "$build" ]; then
   mkdir build
 fi
 
-./node_modules/babel-cli/bin/babel.js src --out-dir build
+./node_modules/.bin/babel src --out-dir build
