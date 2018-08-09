@@ -1,0 +1,26 @@
+{
+  "name": "mypokemonbirthday_backend",
+  "version": "1.0.0",
+  "description": "mypokemonbirthday express backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyPokemonGroup/mypokemonbirthday_backend.git"
+  },
+  "author": "sir anonymous <anonymous@email.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyPokemonGroup/mypokemonbirthday_backend/issues"
+  },
+  "homepage": "https://github.com/MyPokemonGroup/mypokemonbirthday_backend#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "sequelize": "^4.38.0"
+  }
+}
