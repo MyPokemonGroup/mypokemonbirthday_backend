@@ -4,6 +4,7 @@
   "description": "mypokemonbirthday express backend",
   "main": "index.js",
   "scripts": {
+    "compile": "./build.sh", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/MyPokemonGroup/mypokemonbirthday_backend#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "chai": "^4.1.2",
     "express": "^4.16.3",
     "mocha": "^5.2.0",
